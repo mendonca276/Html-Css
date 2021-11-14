@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rew, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: italic;
+            
+            /* lighter, normal, bold, bolder */
+        }
+        h1{
+            /* shorthand font
+            - font-style ->- font-weight ->- font-size ->- font-family
+
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 3em;
+            font-style: italic; */
+            font:italic bold 3em sans-serf;
+        }
+        h2{
+            font:italic lighter 3em sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa neque autem similique a facilis, modi cupiditate, culpa corrupti iure qui consequuntur explicabo sit ratione quaerat? Tenetur repudiandae error aliquid illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aspernatur nam nemo consectetur voluptatibus quos libero debitis, minus, ad earum unde ut dolores odio repellat voluptates atque maiores rerum at.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, ullam nihil nam eveniet atque odit laborum cum quasi in laudantium porro alias? Illum eveniet debitis neque error nulla blanditiis eligendi.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ducimus ab dolores dolorum officia eum tempore aperiam cumque ad nulla debitis, sequi amet porro quam aliquid iusto sint fugit quia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore commodi dignissimos et minima expedita pariatur vitae blanditiis asperiores doloribus beatae consectetur ut repudiandae ex reprehenderit praesentium, natus, dolorum inventore illum?</p>
+</body>
+</html>
